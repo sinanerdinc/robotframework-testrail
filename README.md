@@ -40,4 +40,4 @@ Default: True
 This setting determines whether the test run to be created should include all of your scenarios or only the tagged scenarios.
 
 ### report_file
-Represents the path of your test result file.
+Represents the path of your output.xml file.
