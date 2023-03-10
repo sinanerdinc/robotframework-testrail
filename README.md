@@ -41,3 +41,10 @@ This setting determines whether the test run to be created should include all of
 
 ### report_file
 Represents the path of your output.xml file.
+
+## Docker
+```
+docker run --rm -v $(pwd)/output:/app/output sinanerdinc/robotframeworktestrail --project_id PROJECTID --user YOUREMAIL --pwd PASSWORD --url TESTRAILURL --include_all True --report_file output/output.xml
+```
+
+Don't forget to change your output directory name in the command.
