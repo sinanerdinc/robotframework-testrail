@@ -46,6 +46,8 @@ python robot_testrail.py --project_id testrail_project_id --user testrail_email 
 ```
 
 ## Docker
+You can also import your reports using docker container.
+
 ```
 docker run --rm -v $(pwd)/output:/app/output sinanerdinc/robotframeworktestrail --project_id PROJECTID --user YOUREMAIL --pwd PASSWORD --url TESTRAILURL --include_all True --report_file output/output.xml
 ```
